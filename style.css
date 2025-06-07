@@ -9,6 +9,12 @@
     color: #3B493E;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
 .text_style {
     color: #E5E2DD;
 }
@@ -18,7 +24,7 @@
     align-items: center;
     justify-content: space-between;
     max-height: 80px;
-    width: auto;
+    width: 100%;
     background-color: #3B493E;
 }
 
@@ -26,6 +32,10 @@ img {
     height: 80px;
     width: 80px;
     margin-left: 40px;
+}
+
+.Logo h1, .Logo h2 {
+    margin-left: 15px;
 }
 
 .Logo {
@@ -50,11 +60,61 @@ button {
     width: 150px;
     padding: 10px ; 
     max-height: 40px;
-    border: 1px;
+    border: 1px solid #3B493E;
     cursor: pointer;
 }
 
 .button_style {
     border-radius: 10px;
     background-color: #E5E2DD;
+}
+
+.button_style:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.main {
+    flex: 1;
+}
+
+.quem_somos {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.titulo h1 {
+    text-align: center;
+}
+
+#slide {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#foto {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.descricao h2 {
+    color: #000;
+}
+
+.bolinha {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #3B493E;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.bolinha.ativa {
+  background-color: #3B493E;
 }

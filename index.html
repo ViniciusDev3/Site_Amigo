@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<Html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"> 
+    <title>Queiroz Vianez Rodrigues & Cardoso</title>
 </head>
-    <body>
-        <div class="box_head">
-            <div class="Logo">
-                <img src="Logo.svg" alt="Logo">
-                <div >
-                    <h1 class="text_style">QUEIROZ VIANEZ RODRIGUES & CARDOSO</h1>
-                    <h2 class="text_style">ADVOGADOS ASSOCIADOS</h2>
-                </div>       
-            </div>
-            <div class="box_button">
-                <button class="button_style">Quem Somos</button>
-                <button class="button_style">Serviços</button>
-                <button class="button_style">Fale Conosco</button>
-            </div>
-            
+<body>
+    <header class="box_head">
+        <div class="Logo">
+            <img src="Logo.svg" alt="Logo">
+            <div>
+                <h1 class="text_style">QUEIROZ VIANEZ RODRIGUES & CARDOSO</h1>
+                <h2 class="text_style">ADVOGADOS ASSOCIADOS</h2>
+            </div>       
         </div>
-    </body>
-</Html>
+        <nav class="box_button">
+            <button class="button_style">Quem Somos</button>
+            <button class="button_style">Serviços</button>
+            <button class="button_style">Fale Conosco</button>
+        </nav>
+    </header>
+    <main>
+        <section class="quem_somos">
+            <div class="titulo">
+                <h1 >QUEM SOMOS</h1>
+            </div>
+            <div id="slide">
+                <img id="foto" src="" alt="Foto do Advogado">
+                <div class="descricao">
+                    <h2 id="nome"></h2>
+                    <p id="texto"></p>
+                </div>
+            </div>
+
+            <div class="bolinhas" id="bolinhas"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
