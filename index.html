@@ -15,25 +15,36 @@
             </div>       
         </div>
         <nav class="box_button">
-            <button class="button_style">Quem Somos</button>
-            <button class="button_style">Serviços</button>
-            <button class="button_style">Fale Conosco</button>
+            <a href="#quem_somos" class="button_style" role="button">Quem Somos</a>
+            <a href="#serviços" class="button_style" role="button">Serviços</a>
+            <a href="#fale_conosco" class="button_style" role="button">Fale Conosco</a>
         </nav>
     </header>
-    <main>
-        <section class="quem_somos">
+    <main class="box_main">
+        <section id="quem_somos">
             <div class="titulo">
                 <h1 >QUEM SOMOS</h1>
             </div>
-            <div id="slide">
-                <img id="foto" src="" alt="Foto do Advogado">
-                <div class="descricao">
-                    <h2 id="nome"></h2>
-                    <p id="texto"></p>
+            <div class="banner_box">
+                <div id="slide">
+                    <img id="foto" src="" alt="Foto do Advogado">
+                    <div class="descricao">
+                        <h2 id="nome"></h2>
+                        <p id="texto"></p>
+                    </div>
                 </div>
+                <div class="bolinhas" id="bolinhas"></div>
             </div>
-
-            <div class="bolinhas" id="bolinhas"></div>
+        </section>
+        <section id="serviços">
+            <div class="titulo">
+                <h1 >SERVIÇOS</h1>
+            </div>
+        </section>
+        <section id="fale_conosco">
+            <div class="titulo">
+                <h1 >FALE CONOSCO</h1>
+            </div>
         </section>
     </main>
     <script src="script.js"></script>

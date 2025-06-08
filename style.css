@@ -9,10 +9,14 @@
     color: #3B493E;
 }
 
-.body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .text_style {
@@ -26,6 +30,14 @@
     max-height: 80px;
     width: 100%;
     background-color: #3B493E;
+}
+
+.box_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
 }
 
 img {
@@ -53,7 +65,7 @@ img {
     margin-right: 40px;
 }
 
-button {
+a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +73,7 @@ button {
     padding: 10px ; 
     max-height: 40px;
     border: 1px solid #3B493E;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -70,51 +83,86 @@ button {
 }
 
 .button_style:hover {
-    background-color: #ccc;
-    color: #000;
+    background-color: #344136;
+    color: #fff;
 }
 
 .main {
     flex: 1;
 }
 
-.quem_somos {
-  width: 100%;
-  background-color: #f9f9f9;
-  padding: 40px 0;
-  position: relative;
-  overflow: hidden;
+#quem_somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_box {
+    border-bottom: 0.5px solid #3B493E;
+    border-top: 0.5px solid #3B493E;
+    height: auto;
+    width: 100%;
 }
 
 .titulo h1 {
     text-align: center;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 #slide {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 100%;
+    height: auto;
+    padding: 40px 0 0 0;
+    gap: 50px;
 }
 
 #foto {
-  width: 200px;
-  border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 40px;
 }
 
 .descricao h2 {
+    text-align: center;
     color: #000;
+    margin: 10px 0 20px 0;
+}
+
+.descricao p {
+  text-indent: 30px;
+}
+.descricao {
+    height: 400px;
+    width: 600px;
+    margin-right: 40px;
+}
+
+.bolinhas {
+    text-align: center;
 }
 
 .bolinha {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-color: #3B493E;
-  border-radius: 50%;
-  margin: 5px;
-  cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #3B493E;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .bolinha.ativa {
-  background-color: #3B493E;
+    background-color: #080808;
 }
+
