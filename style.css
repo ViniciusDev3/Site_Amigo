@@ -228,3 +228,34 @@ a {
     justify-content: center;
     margin: 40px 0;
 }
+
+.FC_box img {
+    height: 400px;
+    width: 400px;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #3B493E;
+}
+
+.box_icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.box_icones a {
+    height: auto;
+    width: auto;
+    padding: 0;
+    gap: 40px;
+}
+
+.box_icones img {
+    height: 40px;
+    width: 40px; 
+}
