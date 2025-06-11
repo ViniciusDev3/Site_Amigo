@@ -75,7 +75,6 @@ button {
   font-size: 20px;
 }
 
-
 .box-container {
   background-color: #fff;
   border: 1px solid #FFD700;
@@ -83,7 +82,12 @@ button {
   padding: 20px;
   width: 300px; 
   text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.5;
 }
+
 .boxes-style {
   display: flex;
   flex-wrap: wrap;
