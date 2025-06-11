@@ -58,7 +58,7 @@ button {
   background-color: #E5E2DD;
 }
 
-.services-container {
+.separation-container {
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
@@ -68,9 +68,27 @@ button {
   align-items: center;
 }
 
-.section {
-  padding: 60px 40px;
+.titulo-servicos {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #D4AF37; 
+  font-size: 20px;
+}
+
+
+.box-container {
   background-color: #fff;
-  color: #3B493E;
-  border-top: 2px solid #ccc;
+  border: 1px solid #FFD700;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px; 
+  text-align: center;
+}
+.boxes-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 60px; 
+  margin: 40px auto;
+  max-width: 800px; 
 }
