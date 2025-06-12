@@ -9,11 +9,13 @@
   color: #3B493E;
 }
 
-.text_style {
+.text_style 
+{
   color: #E5E2DD;
 }
 
-.box_head {
+.box_head 
+{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,13 +24,15 @@
   background-color: #3B493E;
 }
 
-img {
+img 
+{
   height: 80px;
   width: 80px;
   margin-left: 40px;
 }
 
-.Logo {
+.Logo 
+{
   display: flex;
   align-items: center;
   height: auto;
@@ -36,13 +40,15 @@ img {
   text-align: center;
 }
 
-.box_button {
+.box_button 
+{
   display: flex;
   gap: 15px;
   margin-right: 40px;
 }
 
-button {
+button 
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,12 +59,14 @@ button {
   cursor: pointer;
 }
 
-.button_style {
+.button_style 
+{
   border-radius: 10px;
   background-color: #E5E2DD;
 }
 
-.separation-container {
+.separation-container 
+{
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
@@ -68,31 +76,66 @@ button {
   align-items: center;
 }
 
-.titulo-servicos {
-  text-align: center;
+.titulo-servicos 
+{
+  text-align: justify;
   margin-bottom: 40px;
-  color: #D4AF37; 
+  color: #3B493E; 
   font-size: 20px;
 }
 
-.box-container {
+.box-container 
+{
   background-color: #fff;
-  border: 1px solid #FFD700;
+  border: 1px solid #3B493E;
   border-radius: 5px;
   padding: 20px;
   width: 300px; 
-  text-align: center;
+  text-align: justify;
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.5;
 }
 
-.boxes-style {
+.boxes-style 
+{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px 60px; 
   margin: 40px auto;
   max-width: 800px; 
+}
+
+.servico-header 
+{
+  display: flex;
+  align-items: center;        
+  gap: 15px;                 
+  margin-bottom: 15px;
+}
+
+.servico-icone 
+{
+  font-size: 1.5rem;         
+  color: #D4AF37;
+  flex-shrink: 0;            
+}
+
+.titulo-servicos 
+{
+  color: #3B493E;
+  font-size: 20px;
+  margin: 0;                 
+  text-align: left;          
+}
+
+.descricao-servico 
+{
+  word-wrap: break-word;
+  overflow-wrap:break-word;
+  white-space: normal;
+  line-height: 1.5;
+  text-align: justify; 
 }
