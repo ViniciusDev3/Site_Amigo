@@ -40,6 +40,7 @@ header {
     width: 100%;
     background-color: #3B493E;
     height: 80px;
+    padding: 0 40px;
 }
 
 .box_main {
@@ -54,7 +55,6 @@ header {
 img {
     height: 80px;
     width: 80px;
-    margin-left: 40px;
 }
 
 .Logo h1, .Logo h2 {
@@ -73,7 +73,6 @@ img {
 .box_button {
     display: flex;
     gap: 15px;
-    margin-right: 40px;
 }
 
 a {
@@ -102,7 +101,6 @@ a {
 
 .main {
     flex: 1;
-    
 }
 
 /* Quem somos*/
@@ -135,10 +133,10 @@ a {
 #slide {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: space-between;  
     width: 100%;
     height: auto;
-    padding: 40px 0;
+    padding: 40px 200px;
     gap: 50px;
     background-color: #e6e6e6;
 }
@@ -147,7 +145,6 @@ a {
     width: 300px;
     height: 400px;
     border-radius: 10px;
-    margin-left: 40px;
     border: 1px solid black;
 }
 
@@ -163,7 +160,6 @@ a {
 .descricao {
     height: 400px;
     width: 600px;
-    margin-right: 40px;
     text-align: justify;
 }
 
@@ -236,11 +232,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;   
-    gap: 40px 60px;
-    margin: 0 auto;                
-    max-width: 1100px;             
+    gap: 40px 20px;
+    margin: 0 auto;                            
     width: 100%;
-    padding: 0 20px;               
+    padding: 40px 200px;               
     box-sizing: border-box;
 }
 
@@ -284,7 +279,6 @@ a {
     width: 100%;
     background-color: #f9f9f9;
     margin-top: 40px;
-    /*border-bottom: 0.5px solid #3B493E;*/
     scroll-margin-top: 100px;
 }
 
@@ -331,8 +325,9 @@ a {
 .FC_box {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 40px 0;
+    justify-content: space-between;
+    width: 100%;  
+    padding: 40px 200px;
 }
 
 .FC_box img {
@@ -353,6 +348,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-left: 40px;
+    gap: 20px;
 }
 
 .box_icones a {
@@ -362,7 +358,26 @@ a {
     gap: 40px;
 }
 
-.box_icones img {
-    height: 40px;
-    width: 40px; 
+.box_icones a i {
+    font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+    .boxes-style {
+        justify-content: center;
+        gap: 40px 20px;
+        padding: 40px 40px;
+    }
+
+    #slide {
+        padding: 40px 40px;
+        gap: 50px;
+
+    }
+
+    .FC_box {
+        justify-content: space-between;
+        width: 100%; 
+        padding: 40px 40px;
+    }
 }
