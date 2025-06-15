@@ -58,7 +58,7 @@ function proximoSlide() {
 window.onload = () => {
   criarBolinhas();
   mostrarSlide(index);
-  setInterval(proximoSlide, 5000);
+  setInterval(proximoSlide, 10000);
 };
 
 
