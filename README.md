@@ -8,7 +8,7 @@ Este site surgiu como parte de um projeto acadêmico da disciplina de Engenharia
 
 - **HTML**
 - **CSS**
-=======
+
 # QVRC - Site para Escritório de Advocacia
 
 Este projeto foi desenvolvido como parte de um trabalho acadêmico, com o objetivo de aplicar conhecimentos em desenvolvimento web (HTML, CSS e JavaScript) na criação de um site institucional para uma empresa real que ainda não possui presença digital estruturada.
