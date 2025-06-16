@@ -2,36 +2,387 @@
     padding: 0;
     margin: 0;
 
+    line-height: 1;
+    font-size: 1rem;
+    font-family: verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     box-sizing: border-box;
-    color: black;
+    color: #3B493E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.text_style {
+    color: #E5E2DD;
+    font-size: 13px;
 }
 
 .box_head {
-    display: flexbox;
-    text-align: center;
-    padding: 10px;
-    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 100px;
+    width: 100%;
+    background-color: #3B493E;
+    height: 100px;
+    padding: 0 40px;
+}
+
+.box_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+.Logo h2 {
+    position: relative;
+    top: -10px;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
     width: auto;
-    background-color: #3C4C3C;
+    text-align: center;
 }
-.logo {
-    position: absolute;
-}
+
 
 .box_button {
-    display: flexbox;
-    column-gap: 15px;
-    margin-right: 10px;
+    display: flex;
+    gap: 15px;
 }
 
-button {
+a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;    
-    width: 100vh;
+    width: 150px;
+    padding: 10px ; 
+    max-height: 40px;
+    border: 1px solid #3B493E;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button_style {
+    border: none;
+    border-radius: 10px;
+    background-color: #E5E2DD;
+}
+
+.button_style:hover {
+    background-color: #2b362d;
+    box-shadow: 0 0 4px #859485;
+    color: #E5E2DD;
+}
+
+.main {
+    flex: 1;
+}
+
+/* Quem somos*/
+#quem_somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    scroll-margin-top: 100px;
+    
+}
+
+.banner_box {
+    height: auto;
+    width: 100%;
+}
+
+.titulo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #344136;
+    box-shadow: 0 1px 0 #859485;
+}
+
+#slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 100%;
+    height: auto;
+    padding: 40px 200px;
+    gap: 50px;
+    background-color: #e6e6e6;
+}
+
+#foto {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.descricao h2 {
+    text-align: center;
+    color: #000;
+    margin: 10px 0 20px 0;
+}
+
+.descricao p {
+    text-indent: 30px;
+}
+.descricao {
+    height: 400px;
+    width: 600px;
+    text-align: justify;
+}
+
+.bolinhas {
+    text-align: center;
+    background-color: #e6e6e6;
+    box-shadow: 0 6px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.bolinha {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #3B493E;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+.bolinha.ativa {
+    background-color: #1b1f1c;
+}
+
+/* Serviços*/
+#serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-margin-top: 100px;
+    margin-top: 40px;
+}
+
+.separation-container 
+{
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-servicos 
+{
+  text-align: justify;
+  margin-bottom: 40px;
+  color: #3B493E; 
+  font-size: 20px;
+}
+
+.box-container 
+{
+    background-color: #fff;
+    border: 1px solid #3B493E;
     border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    max-height: 450px;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.5;
+}
+
+.boxes-style 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+    gap: 40px 20px;
+    margin: 0 auto;                            
+    width: 100%;
+    padding: 40px 200px;               
+    box-sizing: border-box;
+}
+
+.servico-header 
+{
+    display: flex;
+    align-items: center;        
+    gap: 15px;                 
+    margin-bottom: 15px;
+}
+
+.servico-icone 
+{
+    font-size: 1.5rem;         
+    color: #3B493E;
+    flex-shrink: 0;            
+}
+
+.titulo-servicos 
+{
+    color: #3B493E;
+    font-size: 20px;
+    margin: 0;                 
+    text-align: left;          
+}
+
+.descricao-servico 
+{
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+    white-space: normal;
+    line-height: 1.5;
+    text-align: justify; 
+}
+
+/* Fale conosco*/
+#fale_conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    scroll-margin-top: 100px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 12px;
+    border: 1px solid #3B493E;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+
+}
+
+.formulario textarea {
+    min-height: 120px;
+}
+
+.formulario button {
+    padding: 12px;
+    background-color: #3B493E;
+    color: #E5E2DD;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario input, .formulario button, .formulario textarea {
+    width: 360px;
+    min-width: 120px;
+}
+
+.formulario button:hover {
+    background-color: #2c3b30;
+}
+
+.FC_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+    padding: 40px 200px;
+}
+
+.FC_box img {
+    height: 400px;
+    width: 400px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #3B493E;
+}
+
+.box_icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.box_icones a {
+    height: auto;
+    width: auto;
+    padding: 0;
+    gap: 40px;
+}
+
+.box_icones a i {
+    font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+    .boxes-style {
+        justify-content: center;
+        gap: 40px 20px;
+        padding: 40px 40px;
+    }
+
+    #slide {
+        padding: 40px 40px;
+        gap: 50px;
+
+    }
+
+    .FC_box {
+        justify-content: space-between;
+        width: 100%; 
+        padding: 40px 40px;
+    }
 }
