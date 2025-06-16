@@ -4,7 +4,9 @@
 
     line-height: 1;
     font-size: 1rem;
-    font-family: "Lora", serif;
+    font-family: verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     box-sizing: border-box;
     color: #3B493E;
 }
@@ -30,16 +32,17 @@ header {
 
 .text_style {
     color: #E5E2DD;
+    font-size: 13px;
 }
 
 .box_head {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 80px;
+    max-height: 100px;
     width: 100%;
     background-color: #3B493E;
-    height: 80px;
+    height: 100px;
     padding: 0 40px;
 }
 
@@ -57,12 +60,14 @@ img {
     width: 80px;
 }
 
-.Logo h1, .Logo h2 {
-    margin-left: 15px;
+.Logo h2 {
+    position: relative;
+    top: -10px;
 }
 
 .Logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: auto;
     width: auto;
