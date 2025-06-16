@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Guia Completo do site
 
 Este site surgiu como parte de um projeto acadêmico da disciplina de Engenharia de Software. Foi desenvolvido por ViniciusDev3 e XzGuuhXz com o objetivo de aprender e praticar o desenvolvimento web.
@@ -34,7 +33,7 @@ A empresa escolhida foi o **consultório jurídico QVRC - Advogados Associados**
 
 A imagem abaixo representa uma prévia visual do site desenvolvido:
 
-![Prévia do site](Site%20F%20%26%20G.png)
+![Prévia do site](.github/preview.png)
 
 ## 🧪 Tecnologias Utilizadas
 
@@ -43,4 +42,3 @@ A imagem abaixo representa uma prévia visual do site desenvolvido:
 - JavaScript (puro)
 - Font Awesome (ícones)
 - FormSubmit (envio de formulário por e-mail)
->>>>>>> vinicius
