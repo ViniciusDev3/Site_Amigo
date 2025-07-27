@@ -69,24 +69,20 @@ window.onload = () => {
 const servicos = 
 [
   {
-    titulo: "Serviço 1",
-    descricao: `Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident.`
+    titulo: "Assessoria em Direito Civil e de Família",
+    descricao: `Oferecemos suporte jurídico completo para resolver questões do dia a dia, desde a elaboração e revisão de contratos até a condução de processos de divórcio, guarda e partilha de bens. Atuamos com discrição e sensibilidade para proteger seus direitos e garantir a melhor solução para você e sua família.`
   },
   {
-    titulo: "Serviço 2",
-    descricao: `Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident.`
+    titulo: "Consultoria para Empresas",
+    descricao: `Auxiliamos sua empresa a crescer com segurança jurídica. Nossos serviços incluem a elaboração de contratos sociais, acordos de sócios, assessoria em fusões e aquisições e a adequação às normas de governança corporativa. Conte conosco para proteger seu negócio e minimizar riscos legais.`
   },
   {
-    titulo: "Serviço 3",
-    descricao: `Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident.`
+    titulo: "Defesa em Causas Trabalhistas",
+    descricao: `Representamos tanto empregados quanto empregadores em todas as instâncias da Justiça do Trabalho. Atuamos em casos de rescisão de contrato, horas extras, assédio moral e outras disputas, buscando sempre a solução mais justa e ágil para nossos clientes.`
   },
   {
-    titulo: "Serviço 4",
-    descricao: `Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident.`
-  },
-  {
-    titulo: "Serviço 5",
-    descricao: `Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident.`
+    titulo: "Direito Previdenciário",
+    descricao: `Auxiliamos você a garantir seus direitos junto ao INSS. Atuamos em processos de solicitação de aposentadorias, pensões, auxílio-doença e outros benefícios. Conte com nossa experiência para planejar seu futuro e assegurar o recebimento do benefício a que você tem direito.`
   }
 ];
 
